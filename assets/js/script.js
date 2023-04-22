@@ -77,7 +77,7 @@ let palabrasPorReemplazar = [
 		color: '#FFB600',
 	},
 ];
-// Genera e inyecta textos de reemplazo
+// Genera textos de reemplazo
 let nuevoTexto = (palabra) => {
 	return (reemplazo = displayTexto.innerHTML.replaceAll(
 		palabra.nombre,
