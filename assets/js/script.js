@@ -1,5 +1,3 @@
-let displayTexto = document.getElementById('displayTexto');
-
 let palabrasPorReemplazar = [
 	{
 		nombre: 'sed',
@@ -93,7 +91,7 @@ let nuevoTexto = (palabra) => {
 	));
 };
 
-// Evalua si se cumple con el valor esperado, de ser asi muestra en consola con el color entregado
+// Evalúa si se cumple con el valor esperado, de ser asi muestra en consola con el color entregado
 let mostrarEnConsola = (nombre, valor, valorEsperado, color) => {
 	if ((valor ||= valor == valorEsperado)) {
 		console.log(`%c${nombre}: ${valor}`, `color: ${color}`);
